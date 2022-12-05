@@ -38,7 +38,7 @@ function animate() {
 
     // Draw Clouds
     ctx.drawImage(cloudImg, cloud1x, cloud1y); // Cloud 1
-    ctx.drawImage(cloudImg, 170, 100); // Cloud 2
+    ctx.drawImage(cloudImg, cloud1x, 100); // Cloud 2
     
 
     // LOOP
